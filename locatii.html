@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>How to Stardew Valley</title>
+        <link rel="icon" type="image/x-icon" href="images/title.avif">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="lightbox.css">
+    </head>
+
+<body class="customBody">
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="home.html">How to Stardew Valley</a></div>
+            <div class="dropdown">
+                <button class="dropbtn">Discover the Stardew Valley universe</button>
+                <div class="dropdown-content">
+                    <a href="locatii.html">Types of Farms</a>
+                    <a href="personaje.html">Friendship</a>
+                    <a href="festivale.html">Festivals</a>
+                </div>
+            </div>
+            <ul>
+                <button><a href="signIn.html">Login</a></button>
+                <button><a href="register.html">Register</a></button>
+                
+            </ul>
+    </nav>
+    <main class="main">
+        <table>
+            <tr><th>Unique ID</th><th>Farm Name</th></tr>
+            <tr><td>1</td><td>Forest Farm</td></tr>
+            <tr><td>2</td><td>Hill Top Farm</td></tr>
+            <tr><td>3</td><td>Riverland Farm</td></tr>
+            <tr><td>4</td><td>Standard Farm</td></tr>
+            <tr><td>5</td><td>Wilderness Farm</td></tr>
+            <tr><td>6</td><td>Four Corners Farm</td></tr>
+            <tr><td>7</td><td>Beach Farm</td></tr>
+        </table>
+
+        <br />
+
+        <input type="text" id="search" placeholder="Live search"></input>
+
+        <div class="image-gallery">
+
+            <a href="images/fermaForest.jpg" data-lightbox="maps" data-title="Ferma">
+                <img src="images/fermaForest.jpg" alt="ferma" >
+            </a>
+
+            <a href="images/fermaMunte.jpg" data-lightbox="maps" data-title="Town">
+                <img src="images/fermaMunte.jpg" alt="town" >
+            </a>
+            
+            <a href="images/fermaRau.jpg" data-lightbox="maps" data-title="Farm">
+                <img src="images/fermaRau.jpg" alt="Farm" >
+            </a>
+
+            <a href="images/ferma.jpg" data-lightbox="maps" data-title="Harta Stardew Valley">
+                <img src="images/ferma.jpg" alt="Harta Stardew Valley" >
+            </a>
+
+            <a href="images/WildernessFarm.jpg" data-lightbox="maps" data-title="wild">
+                <img src="images/WildernessFarm.jpg" alt="wild" >
+            </a>
+
+            <a href="images/FourCornersFarm.jpg" data-lightbox="maps" data-title="four">
+                <img src="images/FourCornersFarm.jpg" alt="four" >
+            </a>
+
+            <a href="images/BeachFarm.jpg" data-lightbox="maps" data-title="beach">
+                <img src="images/BeachFarm.jpg" alt="beach" >
+            </a>
+            
+        </div>
+
+        <div class="detalii">
+            <table h5>
+                <tr><th>Farm Name</th></tr>
+                <tr><td><strong>Forest Farm</strong></td><td>With everything like small ponds, hardwood stumps, and forageable items, this is a sure bet to be able to collect a lot of items needed to complete the Community Center in your first year.</td></tr>
+                <tr><td><strong>Hill Top Farm</strong></td><td>This plot has a small amount of farmable land due to the cliffs but still has enough to start a small farm. If you are looking to gather mining ability quicker though, this farm is for you.</td></tr>
+                <tr><td><strong>Riverland Farm</strong></td><td>With the Riverland Farm, the River is brought straight to your front door. That means that the majority of your day would be more focussed on fishing to help you earn rewards!</td></tr>
+                <tr><td><strong>Standard Farm</strong></td><td>This farm plot is the perfect map to start on for its design to help give you the most space to learn the mechanics of farming as well as raising animals. As you clear out all of the trees and grass from the land, you’ll be able to cultivate a huge area for farming while still having enough space to build barns and coops to supply you with all of your dairy and poultry needs.</td></tr>
+                <tr><td><strong>Wilderness Farm</strong></td><td>This is the perfect map for anyone who wants to get all that the game has to offer right on their farm. Usually, you would have to go into the mines to combat any monsters but this brings adventure right to your front door.</td></tr>
+                <tr><td><strong>Four Corners Farm</strong></td><td>In the top left, you will find your Forest Farm. In the top right, your standard farm. This is also where you will find your home by the way. In the bottom left is the “Riverland Farm” even though it only has a lake and not a river. Finally, in the bottom right, you will have your Hilltop Farm.</td></tr>
+                <tr><td><strong>Beach Farm</strong></td><td>There is one downfall to this one when it comes to farming though. When you learn how to set up sprinklers for farming, they won’t work in the sand. A good trade off for this is that you get the chance of supply crates washing up on shore. This farm is not recommended for your first time playing as there are a lot of mechanics you will need to know going into it.</td></tr>
+            </table h5>
+        </div>
+        
+    </main>
+
+<footer>
+    <div class="containerDown">
+        <div class="row">
+            <div class="col-md-6">
+                <h4>Contact</h4>
+
+                <ul class="contact-info" id="footer_1">
+                    <li><i class="fa fa-envelope"></i> stardewValley@yahoo.com</li>
+                    <li><i class="fa fa-phone"></i> +1234567890</li>
+                </ul>
+
+                <button id="buttonShowMore">View More Info</button onclick="showMore()">
+
+                <ul style="display: none;" id="footer_2">
+                    <li><i class="fa fa-envelope"></i> stardewValley@yahoo.com</li>
+                    <li><i class="fa fa-phone"></i> +1234567890</li>
+                    <li><i class="fa fa-map-marker"></i> Cluj-Napoca, Romania</li>
+                </ul>
+                
+            </div>
+            <div class="col-md-6">
+                <h4>Explore a page dedicated to Stardew Valley enthusiasts, providing detailed information on all aspects of the game, along with tips and practical guides.</h4>
+                <p>By accessing and using this webpage, you agree to our terms and conditions, which include our privacy policy and usage rules, establishing your rights and responsibilities regarding interaction with the content and services offered by this site.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="lightbox-plus-jquery.js"></script>
+    <script defer src="tableSearch.js"></script>
+</body>
+</html>
