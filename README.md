@@ -1,5 +1,5 @@
 ## Stardew Valley Fan Page
-This project is a fan page dedicated to the game Stardew Valley, offering fans information about characters, in-game activities, guides, and additional resources. The web application includes an engaging frontend interface and a dynamic backend to handle user interactions.
+This project is a fan page dedicated to the game Stardew Valley, offering fans information about characters, in-game activities and guides. The web application includes an engaging frontend interface and a dynamic backend to handle user interactions.
 ## Frontend
 The frontend is built using HTML and CSS to create a visual interface that mirrors the charming aesthetic of the game, featuring pastel colors, pixelated illustrations, and a minimalist layout that reflects Stardew Valley’s visual style.
 ## Backend
